@@ -18,7 +18,7 @@ public class AccountTriggerHandler {
         system.debug('list of user id is ' + LstUserID);
         List<User> UserObjList = new List<User> ([select Email from User where Id IN:LstUserID]);
         
-        system.debug('list of user object is ---> ' + UserObjList);
+        system.debug('list of user object is the uuuuususususus ---> ' + UserObjList);
         for(User each  : UserObjList)
         {
             
