@@ -1,4 +1,4 @@
-public class AccountTriggerHandler 
+public class AccountTriggerHandler {
 
     public static void SendEmailWhenAccountDeleted (Set<Id> accountIdSet) 
        
